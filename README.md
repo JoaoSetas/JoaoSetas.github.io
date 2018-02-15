@@ -1,5 +1,5 @@
-# Renatissima.github.io
-[Web Page](https://renatissima.github.io)
+# JoaoSetas.github.io
+[Web Page](https://JoaoSetas.github.io)
 
 To connect to github: copy and paste the sectoin (…or create a new repository on the command line) after creating a repository in github<br>
 To install this: npm install --save [name](like - tether, jquery, bootstrap)<br>
