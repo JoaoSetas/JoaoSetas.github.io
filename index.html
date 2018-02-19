@@ -1,33 +1,203 @@
-<!DOCTYPE HTML>
-<html>
-  <head>    
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <link rel="icon" href="https://maxcdn.icons8.com/Share/icon/p1em/Business//resume1600.png">
+  <title>Personal Home Page</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="https://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <title>WebSites</title>
-  </head>
-  <body>
-    <div class="container">
-      <h2>WebSites</h2>
-        <ul class="list-group">
-          <a class="list-group-item list-group-item-action" href="HomePage">Home Page</a>
-          <a class="list-group-item list-group-item-action" href="AngularCourse">Angular Course</a>
-        </ul>
-        
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">  
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://cdn.jsdelivr.net/npm/animate.css@3.5.1" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div id="all">
+    <transition appear
+      enter-active-class="animated bounceInDown"
+    >
+      <nav class="" role="navigation">
+        <div class="nav-wrapper container">
+          <a id="logo-container" href="/Labratorio/HomePage" class="brand-logo">Home Page</a>
+          <ul class="right hide-on-med-and-down"> 
+            <li>
+              <a class="dropdown-button btn"  data-activates='dropdown1'>Other WebSites</a>
+              <ul id='dropdown1' class='dropdown-content m-t-2 m-l-1'>
+                <li><a href="http://JoaoSetas.github.io/AngularCourse/">Angular Course</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul id="nav-mobile" class="side-nav">
+            <li><h4 class="center">Other WebSites</h4></li>
+            <li><a class="btn" href="http://JoaoSetas.github.io/AngularCourse/" style="font-size: 11px">Angular Course</a></li>
+          </ul>
+          <a href="#" data-activates="nav-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>
+        </div>
+      </nav>
+    </transition>
+
+    <div class="section no-pad-bot" id="index-banner">
+      <div class="container">
+        <div class="row" id="moreinfo">
+          <transition  appear 
+            enter-active-class="animated rollIn"
+          >
+            <div class="col s4">
+              <img src="images/fotoPerfil.png" alt="Perfil" id="fotoPerfil" class="circle hoverable responsive-img">
+            </div>
+          </transition>
+          <transition appear
+            enter-active-class="animated zoomInLeft"
+          >
+            <ul class="col s4 pull-s1 moreInfo m-t-2">
+              <li class="m-b-1">
+                  <i class="material-icons">person</i>
+                  <span class="condensed light">João Pedro Silva Setas</span>              
+              </li>
+              <li class="m-b-1">
+                  <i class="material-icons">location_on</i>
+                  <span class="condensed light"> Rua do Passal, Nº14, Fraião,</span>
+                  <span class="condensed light m-l-2">4715-339 Braga (Portugal)</span>                
+              </li>
+              <li class="m-b-1">
+                <i class="material-icons">phone_android</i>
+                <a class="condensed light" href="tel:+351912211588">+351 912211588</a>
+              </li>
+              <li class="m-b-1">
+                <i class=" material-icons">email</i>
+                <a href="mailto:setasjoao@gmail.com?Subject=Contact%20me" class="condensed light">setasjoao@gmail.com</a>
+              </li>
+            </ul>
+          </transition>
+          <div class="col s4 pull-s1 m-t-2">
+              <transition appear
+              enter-active-class="animated rotateInDownRight"
+              >
+                <h1 class="header m-t-0 center software">Software</h1>
+              </transition>
+              <transition appear
+              enter-active-class="animated rotateInUpRight"
+              > 
+                <h1 class="header m-t-0 center engineer">Engineer</h1>
+            </transition>
+          </div>        
+        </div>
+        <div class="row center">
+          <h5 class="header col s6 left-align">Licenciatura Engenharia Informática</h5>
+          <h6 class="header col s2 light">Nível 6 QRQ</h6>
+          <h5 class="col s12 left-align light">Universidade Fernando Pessoa, Porto (Portugal)</h5>
+        </div>
+        <br><br>
+      </div>
     </div>
-    
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="https://v4-alpha.getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <transition appear
+      enter-active-class="animated bounceInUp"
+    >
+      <div class="container">
+        <div class="section">
+
+          <!--   Icon Section   -->
+          <div class="row">
+          <div class="col s6">
+              <div class="icon-block">
+                <h2 class="center light-blue-text text-lighten-1"><i class="material-icons">dvr</i></h2>
+                <h5 class="center">Web Developer</h5>
+
+                <p class="light">Colaboração no desenvolvimento de uma aplicação web para a Empresa Farmaceutica <a href="http://basi.pt/">Basi</a>  -   <strong>Front-End</strong>, <strong>Back-End</strong> e <strong>Back Office</strong>.</p>
+                <p class="light"><strong>Zeone</strong>  -  Parque Industrial Mortágua, Lote 11, 3450-232 Mortágua (Portugal)</p>
+                <a href="http://www.zeone.pt/site/">www.zeone.pt</a>
+              </div>
+            </div>
+            <div class="col s6">
+              <div class="icon-block">
+                <h2 class="center light-blue-text text-lighten-1"><i class="material-icons">desktop_windows</i></h2>
+                <h5 class="center">Computer programmer</h5>
+                <p class="light">Desenvolvimento de uma aplicação web e tablets – Dashboard do Negócio.</p>            
+                <p class="light"><strong>Inforap</strong>   -   Rua Cidade do Porto n.º 61, 1º, 4709-004 Braga (Portugal)</p>
+                <a href="http://www.inforap.pt">www.inforap.pt</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br><br>
+      </div>
+    </transition>
+
+    <footer class="page-footer teal lighten-2">
+      <div class="container">
+        <div class="row">
+          <div class="col l5 s6">
+            <h5 class="white-text">Competências relacionadas com o trabalho</h5>
+          </div>
+          <div class="col s6 offset-s1">
+              <p class="grey-text text-lighten-4">Bom domínio de electrónica e sistemas digitais (Circuitos electrónicos, micro-controladores e integração sensores)</p>            
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        Made by <a class="orange-text text-lighten-3" href="#">João Setas</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!--  Scripts-->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+
   </body>
 </html>
+
+<script>
+  new Vue({
+    el: '#all',
+    methods: {
+      pop_beforeEnter: function (el) {
+        el.style.opacity = 0;
+        Velocity(el, { translateX: '10em', rotateZ: '50deg', fontSize: '0em'})
+      },
+      pop_enter: function (el, done) {
+        Velocity(el, { translateX: '3rem', translateY: '2rem', opacity: 1 , rotateZ: '-20deg', fontSize: '1.5em'}, { duration: 300 })
+        Velocity(el, { translateX: '1rem', translateY: '-0.4rem', rotateZ: '0deg', fontSize: '1.1em' }, { complete: done })
+      },
+      rolling_beforeEnter: function (el) {
+        el.style.opacity = 0;
+        Velocity(el, { translateX: '-25em'})
+      },
+      rolling_enter: function (el, done) {
+        Velocity(el, { translateX: '0rem', opacity: 1 , rotateZ: '360deg'}, { complete: done })
+      }
+    }
+  })
+
+  $( document ).ready(function(){
+    $('.dropdown-button').dropdown({
+      inDuration: 300,
+      outDuration: 225,
+      constrainWidth: false, // Does not change width of dropdown to that of the activator
+      hover: true, // Activate on hover
+      gutter: 0, // Spacing from edge
+      belowOrigin: false, // Displays dropdown below the button
+      alignment: 'left', // Displays dropdown with edge aligned to the left of button
+      stopPropagation: false // Stops event propagation
+    }
+  );
+
+    $('.button-collapse').sideNav({
+      menuWidth: 200, // Default is 300
+      edge: 'right', // Choose the horizontal origin
+      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      draggable: true, // Choose whether you can drag to open on touch screens,
+    });
+        
+    
+  });
+    
+</script>

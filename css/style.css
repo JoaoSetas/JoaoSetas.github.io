@@ -1,0 +1,127 @@
+body{
+  background: linear-gradient(to bottom right, #c1c1d9 , #f7ebd3);
+}
+
+.software{	
+  background: linear-gradient(to bottom right, #716b71 60%,  #e7aea0 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+
+.engineer{	
+  background: linear-gradient(to bottom right, #716b71 60%,  #e7aea0 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.material-icons{
+  color: #e79580
+}
+
+nav{
+  background-color:rgba(0, 0, 0, 0);
+}
+
+nav .brand-logo{
+  color: #716b71
+}
+
+.dropdown-content{
+  border-radius: 25px;
+}
+
+.dropdown-content li>a{
+  color: #8787ca
+}
+
+a{
+  color: #8787ca
+}
+
+.btn{
+  background-color: #e79580
+}
+
+.btn:hover{
+  background-color: #8d7e85
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.moreInfo{
+  font-size: 1.2rem;
+}
+
+.flip{
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+.m-t-0{
+  margin-top: 0rem !important;
+}
+
+.m-t-1{
+  margin-top: 1rem !important;
+}
+
+.m-t-2{
+  margin-top: 2rem !important;
+}
+
+.m-b-0{
+  margin-bottom: 0rem !important;
+}
+
+.m-b-1{
+  margin-bottom: 1rem !important;
+}
+
+.m-b-2{
+  margin-bottom: 2rem !important;
+}
+
+.m-l-0{
+  margin-left: 0rem !important;
+}
+
+.m-l-1{
+  margin-left: 1rem !important;
+}
+
+.m-l-2{
+  margin-left: 2rem !important;
+}
+
+.m-r-0{
+  margin-right: 0rem !important;
+}
+
+.m-r-1{
+  margin-right: 1rem !important;
+}
+
+.m-r-2{
+  margin-right: 2rem !important;
+}
+
+.p-b-0{
+  padding-bottom: 0rem !important;
+}
+
+.p-b-1{
+  padding-bottom: 1rem !important;
+}
+
+.p-b-2{
+  padding-bottom: 2rem !important;
+}
