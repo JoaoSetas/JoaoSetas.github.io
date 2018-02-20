@@ -3,20 +3,28 @@ body{
 }
 
 .software{	
-  background: linear-gradient(to bottom right, #716b71 60%,  #e7aea0 100%);
+  background: linear-gradient(to bottom right, #8484a5 0%,  #e59b89 40%);
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-
+  -webkit-text-fill-color: transparent;
+  font-family: "futura-pt", sans-serif;
 }
 
-.engineer{	
-  background: linear-gradient(to bottom right, #716b71 60%,  #e7aea0 100%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+.fa-git-square{
+  color: #e79580;
+  -webkit-transition: text-shadow 0.2s linear;
+    -moz-transition: text-shadow 0.2s linear;
+    -ms-transition: text-shadow 0.2s linear;
+    -o-transition: text-shadow 0.2s linear;
+    transition: text-shadow 0.2s linear;
+}
+
+.fa-git-square:hover {
+    -webkit-text-shadow: 2px 8px 17px  rgba(0,0,0,0.2), 0 6px 20px  rgba(0,0,0,0.19);
+    text-shadow: 2px 8px 17px  rgba(0,0,0,0.2), 0 6px 20px  rgba(0,0,0,0.19);
 }
 
 .material-icons{
-  color: #e79580
+  color: #e79580;
 }
 
 nav{
@@ -28,7 +36,7 @@ nav .brand-logo{
 }
 
 .dropdown-content{
-  border-radius: 25px;
+  border-radius: 10px;
 }
 
 .dropdown-content li>a{
@@ -55,6 +63,11 @@ a{
 }
 .moreInfo{
   font-size: 1.2rem;
+}
+
+nav{
+  -webkit-box-shadow: 0 0; 
+  box-shadow: 0 0;
 }
 
 .flip{

@@ -8,6 +8,7 @@
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">  
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="https://cdn.jsdelivr.net/npm/animate.css@3.5.1" rel="stylesheet" type="text/css">
@@ -19,19 +20,19 @@
       enter-active-class="animated bounceInDown"
     >
       <nav class="" role="navigation">
-        <div class="nav-wrapper container">
-          <a id="logo-container" href="/Labratorio/HomePage" class="brand-logo">Home Page</a>
+        <div class="container">
+          <a id="logo-container" class="brand-logo software">About Me</a>
           <ul class="right hide-on-med-and-down"> 
             <li>
               <a class="dropdown-button btn"  data-activates='dropdown1'>Other WebSites</a>
-              <ul id='dropdown1' class='dropdown-content m-t-2 m-l-1'>
-                <li><a href="http://JoaoSetas.github.io/AngularCourse/">Angular Course</a></li>
+              <ul id='dropdown1' class='dropdown-content m-t-2 m-l-2'>
+                <li><a target="_blank" href="http://JoaoSetas.github.io/AngularCourse/">Angular Course</a></li>
               </ul>
             </li>
           </ul>
           <ul id="nav-mobile" class="side-nav">
             <li><h4 class="center">Other WebSites</h4></li>
-            <li><a class="btn" href="http://JoaoSetas.github.io/AngularCourse/" style="font-size: 11px">Angular Course</a></li>
+            <li><a class="btn" target="_blank" href="http://JoaoSetas.github.io/AngularCourse/" style="font-size: 11px">Angular Course</a></li>
           </ul>
           <a href="#" data-activates="nav-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>
         </div>
@@ -44,51 +45,46 @@
           <transition  appear 
             enter-active-class="animated rollIn"
           >
-            <div class="col s4">
+            <div class="col m4 s12 center">
               <img src="images/fotoPerfil.png" alt="Perfil" id="fotoPerfil" class="circle hoverable responsive-img">
             </div>
           </transition>
           <transition appear
             enter-active-class="animated zoomInLeft"
           >
-            <ul class="col s4 pull-s1 moreInfo m-t-2">
-              <li class="m-b-1">
+            <ul class="col m5 s12 moreInfo m-t-2 ">
+              <li>
+                  <i class="material-icons">school</i>
+                  <span class="condensed light">Software Engineer</span>              
+              </li>
+              <li>
                   <i class="material-icons">person</i>
                   <span class="condensed light">João Pedro Silva Setas</span>              
               </li>
-              <li class="m-b-1">
+              <li>
                   <i class="material-icons">location_on</i>
-                  <span class="condensed light"> Rua do Passal, Nº14, Fraião,</span>
+                  <span class="condensed light"> Rua do Passal, Nº14, Fraião,<br></span>
                   <span class="condensed light m-l-2">4715-339 Braga (Portugal)</span>                
               </li>
-              <li class="m-b-1">
+              <li>
                 <i class="material-icons">phone_android</i>
                 <a class="condensed light" href="tel:+351912211588">+351 912211588</a>
               </li>
-              <li class="m-b-1">
+              <li>
                 <i class=" material-icons">email</i>
                 <a href="mailto:setasjoao@gmail.com?Subject=Contact%20me" class="condensed light">setasjoao@gmail.com</a>
               </li>
             </ul>
           </transition>
-          <div class="col s4 pull-s1 m-t-2">
-              <transition appear
+          <div class="col s12 m3  center">
+            <transition appear
               enter-active-class="animated rotateInDownRight"
               >
-                <h1 class="header m-t-0 center software">Software</h1>
-              </transition>
-              <transition appear
-              enter-active-class="animated rotateInUpRight"
-              > 
-                <h1 class="header m-t-0 center engineer">Engineer</h1>
+              <a target="_blank" href="https://github.com/JoaoSetas" class="fab fa-git-square fa-10x m-t-2" id="fotoGit"></a>
             </transition>
           </div>        
         </div>
-        <div class="row center">
-          <h5 class="header col s6 left-align">Licenciatura Engenharia Informática</h5>
-          <h6 class="header col s2 light">Nível 6 QRQ</h6>
-          <h5 class="col s12 left-align light">Universidade Fernando Pessoa, Porto (Portugal)</h5>
-        </div>
+
         <br><br>
       </div>
     </div>
@@ -106,18 +102,18 @@
                 <h2 class="center light-blue-text text-lighten-1"><i class="material-icons">dvr</i></h2>
                 <h5 class="center">Web Developer</h5>
 
-                <p class="light">Colaboração no desenvolvimento de uma aplicação web para a Empresa Farmaceutica <a href="http://basi.pt/">Basi</a>  -   <strong>Front-End</strong>, <strong>Back-End</strong> e <strong>Back Office</strong>.</p>
+                <p class="light">Colaboração no desenvolvimento de uma aplicação web para a Empresa Farmaceutica <a target="_blank" href="http://basi.pt/">Basi</a>  -   <strong>Front-End</strong>, <strong>Back-End</strong> e <strong>Back Office</strong>.</p>
                 <p class="light"><strong>Zeone</strong>  -  Parque Industrial Mortágua, Lote 11, 3450-232 Mortágua (Portugal)</p>
-                <a href="http://www.zeone.pt/site/">www.zeone.pt</a>
+                <a target="_blank" href="http://www.zeone.pt/site/">www.zeone.pt</a>
               </div>
             </div>
             <div class="col s6">
               <div class="icon-block">
-                <h2 class="center light-blue-text text-lighten-1"><i class="material-icons">desktop_windows</i></h2>
+                <h2 class="center light-blue-text text-lighten-1"><i class="material-icons">dvr</i></h2>
                 <h5 class="center">Computer programmer</h5>
                 <p class="light">Desenvolvimento de uma aplicação web e tablets – Dashboard do Negócio.</p>            
                 <p class="light"><strong>Inforap</strong>   -   Rua Cidade do Porto n.º 61, 1º, 4709-004 Braga (Portugal)</p>
-                <a href="http://www.inforap.pt">www.inforap.pt</a>
+                <a target="_blank" href="http://www.inforap.pt">www.inforap.pt</a>
               </div>
             </div>
           </div>
