@@ -1,12 +1,25 @@
 body{
   background: linear-gradient(to bottom right, #c1c1d9 , #f7ebd3);
 }
+.page-footer{
+  background-color: #c1c1d9
+}
 
-.software{	
+@media only screen and (max-width: 992px){
+  nav .brand-logo {
+    padding-left: 0 !important
+  }
+}
+
+.title{	
   background: linear-gradient(to bottom right, #8484a5 0%,  #e59b89 40%);
 	-webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "futura-pt", sans-serif;
+}
+
+nav .brand-logo{
+  padding-left: 2rem
 }
 
 .fa-git-square{
