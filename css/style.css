@@ -37,13 +37,10 @@ ul.collapsible > li{
   }
 }
 
-.title{	
+nav .brand-logo{
+  padding-left: 2rem;
   color: white !important;
   font-family: "futura-pt", sans-serif;
-}
-
-nav .brand-logo{
-  padding-left: 2rem
 }
 
 .fa-git-square{
@@ -85,7 +82,7 @@ nav .brand-logo{
 }
 
 a{
-  color: #8787ca
+  color: #7b7bc4
 }
 
 p{
