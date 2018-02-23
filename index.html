@@ -1,176 +1,228 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
   <link rel="icon" href="https://maxcdn.icons8.com/Share/icon/p1em/Business//resume1600.png">
   <title>Personal Home Page</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">  
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="https://cdn.jsdelivr.net/npm/animate.css@3.5.1" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-  <div id="all">
-    <transition appear
-      enter-active-class="animated bounceInDown"
-    >
-      <nav class="" role="navigation">
-        <div>
-          <a class="brand-logo title" id="logo-container" >About Me</a>
-          <ul class="right hide-on-med-and-down"> 
-            <li>
-              <a class="dropdown-button btn"  data-activates='dropdown1'>Other WebSites</a>
-              <ul id='dropdown1' class='dropdown-content m-t-2 m-l-2'>
-                <li><a target="_blank" href="http://JoaoSetas.github.io/AngularCourse/">Angular Course</a></li>
-              </ul>
-            </li>
-          </ul>
-          <ul id="nav-mobile" class="side-nav">
-            <li><h4 class="center">Other WebSites</h4></li>
-            <li><a class="btn" target="_blank" href="http://JoaoSetas.github.io/AngularCourse/" style="font-size: 11px">Angular Course</a></li>
-          </ul>
-          <a href="#" data-activates="nav-mobile" class="button-collapse right"><i class="material-icons">menu</i></a>
-        </div>
-      </nav>
-    </transition>
-
-    <div class="section no-pad-bot" id="index-banner">
-      <div class="container">
-        <div class="row">
-          <transition  appear 
-            enter-active-class="animated rollIn"
-          ><div>
-            <div class="col m4 s12 center">
-              <img src="images/fotoPerfil.png" alt="Perfil" id="fotoPerfil" class="circle hoverable responsive-img">
-            </div>
-            <ul class="col m5 s12 moreInfo m-t-2">
+  <div class="myInfo">
+    <div id="animation">
+      <transition appear enter-active-class="animated bounceInDown">
+        <nav class="" role="navigation">
+          <div>
+            <h4 class="brand-logo title" id="logo-container">About Me</h4>
+            <ul class="right hide-on-med-and-down">
               <li>
-                  <i class="material-icons">school</i>
-                  <span class="condensed light m-l-1">Software Engineer</span>              
-              </li>
-              <li>
-                  <i class="material-icons">person</i>
-                  <span class="condensed light m-l-1">João Pedro Silva Setas</span>              
-              </li>
-              <li>
-                  <i class="material-icons">location_on</i>
-                  <span class="condensed light m-l-1"> Rua do Passal, Nº14, Fraião,<br></span>
-                  <span class="condensed light m-l-3">4715-339 Braga (Portugal)</span>                
-              </li>
-              <li>
-                <i class="material-icons">phone_android</i>
-                <a class="condensed light m-l-1" href="tel:+351912211588">+351 912211588</a>
-              </li>
-              <li>
-                <i class=" material-icons">email</i>
-                <a href="mailto:setasjoao@gmail.com?Subject=Contact%20me" class="condensed light m-l-1">setasjoao@gmail.com</a>
+                <a class="dropdown-button btn" data-activates='dropdown1'>Other WebSites</a>
+                <ul id='dropdown1' class='dropdown-content m-t-2 m-l-2'>
+                  <li>
+                    <a target="_blank" href="http://JoaoSetas.github.io/AngularCourse/">Angular Course</a>
+                  </li>
+                </ul>
               </li>
             </ul>
+            <ul id="nav-mobile" class="side-nav">
+              <li>
+                <h4 class="center">Other WebSites</h4>
+              </li>
+              <li>
+                <a class="btn" target="_blank" href="http://JoaoSetas.github.io/AngularCourse/" style="font-size: 11px">Angular Course</a>
+              </li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse right">
+              <i class="material-icons">menu</i>
+            </a>
           </div>
-          </transition>
-          <div class="col s12 m3  center">
-            <transition appear
-              enter-active-class="animated rotateInDownRight"
-              >
-              <a target="_blank" href="https://github.com/JoaoSetas" class="fab fa-git-square fa-10x m-t-2" id="fotoGit"></a>
-            </transition>
-          </div>        
-        </div>
+        </nav>
+      </transition>
 
-        <br><br>
+      <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+          <div class="row">
+            <transition appear enter-active-class="animated rollIn">
+              <div>
+                <div class="col m4 s12 center">
+                  <img src="images/fotoPerfil.png" alt="Perfil" id="fotoPerfil" class="circle hoverable responsive-img">
+                </div>
+                <ul class="col m5 s12 moreInfo m-t-2">
+                  <li>
+                    <i class="material-icons">school</i>
+                    <span class="condensed light m-l-1">Software Engineer</span>
+                  </li>
+                  <li>
+                    <i class="material-icons">person</i>
+                    <span class="condensed light m-l-1">João Pedro Silva Setas</span>
+                  </li>
+                  <li>
+                    <i class="material-icons">location_on</i>
+                    <span class="condensed light m-l-1"> Rua do Passal, Nº14, Fraião,
+                      <br>
+                    </span>
+                    <span class="condensed light m-l-3">4715-339 Braga (Portugal)</span>
+                  </li>
+                  <li>
+                    <i class="material-icons">phone_android</i>
+                    <a class="condensed light m-l-1" href="tel:+351912211588">+351 912211588</a>
+                  </li>
+                  <li>
+                    <i class=" material-icons">email</i>
+                    <a href="mailto:setasjoao@gmail.com?Subject=Contact%20me" class="condensed light m-l-1">setasjoao@gmail.com</a>
+                  </li>
+                </ul>
+              </div>
+            </transition>
+            <div class="col s12 m3  center">
+              <transition appear enter-active-class="animated rotateInDownRight">
+                <a target="_blank" href="https://github.com/JoaoSetas" class="fab fa-git-square fa-10x m-t-2"></a>
+              </transition>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-
-    <transition appear
-      enter-active-class="animated bounceInUp"
-    >
-      <div class="container">
-        <div class="section">
-
-          <!--   Icon Section   -->
-          <div class="row">
-          <div class="col m6 s12">
-              <div class="icon-block">
-                <h2 class="center light-blue-text text-lighten-1"><i class="material-icons">dvr</i></h2>
-                <h5 class="center">Web Developer</h5>
-
-                <p class="light">Collaboration in the development of a web application for a pharmaceutical company <a target="_blank" href="http://basi.pt/">Basi</a>.<br><strong>Front-End</strong>, <strong>Back-End</strong> and <strong>Back Office</strong>.</p>
-                <p class="light"><strong>Zeone</strong>  -  Parque Industrial Mortágua, Lote 11, 3450-232 Mortágua (Portugal)</p>
-                <a target="_blank" href="http://www.zeone.pt/site/">www.zeone.pt</a>
-              </div>
-            </div>
-            <div class="col m6 s12">
-              <div class="icon-block">
-                <h2 class="center light-blue-text text-lighten-1"><i class="material-icons">dvr</i></h2>
-                <h5 class="center">Computer programmer</h5>
-                <p class="light">Development of a web and mobile application.<br><strong>Business Dashboard</strong>.</p>            
-                <p class="light"><strong>Inforap</strong>   -   Rua Cidade do Porto n.º 61, 1º, 4709-004 Braga (Portugal)</p>
-                <a target="_blank" href="http://www.inforap.pt">www.inforap.pt</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <br><br>
-      </div>
-    </transition>
-
-    <footer class="page-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col l5 s6">
-            <h5 class="white-text">Competências relacionadas com o trabalho</h5>
-          </div>
-          <div class="col s6 offset-s1">
-              <p class="grey-text text-lighten-4">Bom domínio de electrónica e sistemas digitais (Circuitos electrónicos, micro-controladores e integração sensores)</p>            
-          </div>
-        </div>
-      </div>
-      <div class="footer-copyright">
-        <div class="container">
-        Made by <a class="orange-text text-lighten-3" href="#">João Setas</a>
-        </div>
-      </div>
-    </footer>
   </div>
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col m6 s12">
+          <div class="icon-block">
+            <h2 class="center">
+              <i class="material-icons">dvr</i>
+            </h2>
+            <h5 class="center">Web Developer</h5>
+
+            <p class="light">Collaboration in the development of a web application for a pharmaceutical company
+              <a target="_blank" href="http://basi.pt/">Basi</a>.
+              <br>
+              <strong>Front-End</strong>,
+              <strong>Back-End</strong> and
+              <strong>Back Office</strong>.</p>
+            <p class="light">
+              <strong>Zeone</strong> - Parque Industrial Mortágua, Lote 11, 3450-232 Mortágua (Portugal)</p>
+            <a target="_blank" href="http://www.zeone.pt/site/">www.zeone.pt</a>
+          </div>
+        </div>
+        <div class="col m6 s12">
+          <div class="icon-block">
+            <h2 class="center">
+              <i class="material-icons">dvr</i>
+            </h2>
+            <h5 class="center">Computer programmer</h5>
+            <p class="light">Development of a web and mobile application.
+              <br>
+              <strong>Business Dashboard</strong>.</p>
+            <p class="light">
+              <strong>Inforap</strong> - Rua Cidade do Porto n.º 61, 1º, 4709-004 Braga (Portugal)</p>
+            <a target="_blank" href="http://www.inforap.pt">www.inforap.pt</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+  </div>
+  
+<footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l4 s12">
+          <h4 class="white-text">Work Related Skills</h4>
+        </div>
+        <!--<div class="col s6 offset-s1">
+              <p class="grey-text text-lighten-4">Bom domínio de electrónica e sistemas digitais (Circuitos electrónicos, micro-controladores e integração sensores)</p>            
+          </div>-->
+        <ul class="collapsible popout col s12 l6 push-l2" @click="setTimeout(skillsClick, 300)" data-collapsible="accordion">
+          <li>
+            <div class="collapsible-header" >
+              <i class="fas fa-code"></i>Basic Programing Languages</div>
+            <div class="collapsible-body">
+              <h6>TODO scroll down</h6>
+              <div class="row m-b-0">
+                <p class="col s4 valign-wrapper"><i class="fas fa-2x fa-tint m-r-1"></i> Elixir</p>  
+                <p class="col s4 valign-wrapper"><i class="fab fa-2x fa-html5 m-r-1"></i> HTML</p>
+                <p class="col s4 valign-wrapper"><i class="fab fa-2x fa-css3-alt m-r-1"></i> CSS</p>  
+                <p class="col s4 valign-wrapper"><i class="fab fa-2x fa-php m-r-1"></i> PHP</p>  
+                <p class="col s4 valign-wrapper"><i class="fas fa-2x fa-database m-r-1"></i> SQL</p>  
+                <p class="col s4 valign-wrapper"><i class="fab fa-2x fa-js-square m-r-1"></i> Javascript</p>  
+                <p class="col s4 valign-wrapper"><i class="fab fa-2x fa-js-square m-r-1"></i> Typescript</p>  
+                <p class="col s4 valign-wrapper"><i class="fas fa-2x fa-terminal m-r-1"></i> Java</p>                  
+                <p class="col s4 valign-wrapper"><i class="fas fa-2x fa-terminal m-r-1"></i> C/C++</p>                           
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header">
+              <i class="fas fa-file-code"></i>Frameworks</div>
+            <div class="collapsible-body">
+              <div class="row m-b-0">
+                <p class="col s4 valign-wrapper"><i class="fab fa-2x fa-laravel m-r-1"></i> Laravel</p>  
+                <p class="col s4 valign-wrapper"><i class="fab fa-2x fa-angular m-r-1"></i> Angular</p>
+                <p class="col s4 valign-wrapper"><i class="fab fa-2x fa-node m-r-1"></i> Node.js</p>  
+                <p class="col s4 valign-wrapper"><i class="fab fa-2x fa-phoenix-framework m-r-1"></i> Phoenix</p>         
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header">
+              <i class="fas fa-microchip"></i>Electronic</div>
+            <div class="collapsible-body">
+              <div class="row m-b-0">
+                  <p class="col s6 valign-wrapper"><i class="fas fa-2x fa-microchip m-r-1"></i> Microcontroller</p>  
+                  <p class="col s6 valign-wrapper"><i class="fas fa-2x fa-microchip m-r-1"></i> Hardware & Sensors</p> 
+                  <p class="col s6 valign-wrapper"><i class="fas fa-2x fa-battery-full m-r-1"></i> Renewable Energy</p>  
+                  <p class="col s6 valign-wrapper"><i class="fas fa-2x fa-bicycle m-r-1"></i> E-bike</p>        
+                </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Made by
+        <a class="orange-text text-lighten-3" href="#">João Setas</a>
+      </div>
+    </div>
+  </footer>
 
   <!--  Scripts-->
   <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
 
-  </body>
+</body>
+
 </html>
 
 <script>
   new Vue({
-    el: '#all',
+    el: '#animation'
+  })
+
+  new Vue({
+    el: '.page-footer',
     methods: {
-      pop_beforeEnter: function (el) {
-        el.style.opacity = 0;
-        Velocity(el, { translateX: '10em', rotateZ: '50deg', fontSize: '0em'})
-      },
-      pop_enter: function (el, done) {
-        Velocity(el, { translateX: '3rem', translateY: '2rem', opacity: 1 , rotateZ: '-20deg', fontSize: '1.5em'}, { duration: 300 })
-        Velocity(el, { translateX: '1rem', translateY: '-0.4rem', rotateZ: '0deg', fontSize: '1.1em' }, { complete: done })
-      },
-      rolling_beforeEnter: function (el) {
-        el.style.opacity = 0;
-        Velocity(el, { translateX: '-25em'})
-      },
-      rolling_enter: function (el, done) {
-        Velocity(el, { translateX: '0rem', opacity: 1 , rotateZ: '360deg'}, { complete: done })
+      skillsClick: function(el){
+        window.scrollTo(0,document.body.scrollHeight);
       }
     }
   })
 
-  $( document ).ready(function(){
+  $(document).ready(function () {
     $('.dropdown-button').dropdown({
       inDuration: 300,
       outDuration: 225,
@@ -181,7 +233,7 @@
       alignment: 'left', // Displays dropdown with edge aligned to the left of button
       stopPropagation: false // Stops event propagation
     }
-  );
+    );
 
     $('.button-collapse').sideNav({
       menuWidth: 200, // Default is 300
@@ -189,8 +241,8 @@
       closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
       draggable: true, // Choose whether you can drag to open on touch screens,
     });
-        
-    
+
+
   });
-    
+
 </script>
