@@ -3,7 +3,7 @@ body{
 }
 
 .myInfo{
-  background: linear-gradient(to bottom right, #7979cf48 , #f8cb7110);
+  background: linear-gradient(to bottom right, #7979cf48 , #f6f87110);
 }
 .page-footer{
   background-color: #c1c1d9
@@ -39,7 +39,7 @@ ul.collapsible > li{
 
 nav .brand-logo{
   padding-left: 2rem;
-  color: white !important;
+  color: #f5f5ff !important;
   font-family: "futura-pt", sans-serif;
 }
 
@@ -55,6 +55,11 @@ nav .brand-logo{
 .fa-git-square:hover {
     -webkit-text-shadow: 2px 8px 17px  rgba(0,0,0,0.2), 0 6px 20px  rgba(0,0,0,0.19);
     text-shadow: 2px 8px 17px  rgba(0,0,0,0.2), 0 6px 20px  rgba(0,0,0,0.19);
+}
+
+li:hover > i{
+  -webkit-text-shadow: 1px 4px 10px  rgba(0,0,0,0.2), 0 6px 20px  rgba(0,0,0,0.19);
+  text-shadow: 1px 4px 10px  rgba(0,0,0,0.2), 0 6px 20px  rgba(0,0,0,0.19);
 }
 
 .material-icons, .fas, .fab{
