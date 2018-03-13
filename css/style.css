@@ -2,6 +2,10 @@ body{
   background: linear-gradient(to bottom right, #c1c1d9 , #f7ebd3);
 }
 
+#fotoPerfil{
+  height: 15rem;
+}
+
 .myInfo{
   background: linear-gradient(to bottom right, #7979cf48 , #f6f87110);
 }
@@ -79,7 +83,7 @@ nav .brand-logo{
 }
 
 .dropdown-content{
-  border-radius: 10px;
+  border-radius: 4px;
 }
 
 .dropdown-content li>a{
